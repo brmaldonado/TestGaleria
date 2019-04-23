@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/fab_margin"
+    android:gravity="center"
+    android:id="@+id/formulario">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/url_imagen"
+        android:inputType="text"
+        android:id="@+id/urlImage"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/buscar"
+        android:background="@color/button"
+        android:paddingLeft="@dimen/fab_margin"
+        android:id="@+id/btnBuscar"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/alturaimagen"
+        android:id="@+id/vistaImagen" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/titulo" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/descripcion" />
+
+</LinearLayout>

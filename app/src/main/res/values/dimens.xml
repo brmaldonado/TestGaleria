@@ -1,0 +1,10 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="alturaimagen">150dp</dimen>
+    <dimen name="detalleimagenaltura">170dp</dimen>
+    <dimen name="colapse">200dp</dimen>
+    <dimen name="line">1dp</dimen>
+    <dimen name="imagen">170dp</dimen>
+    <dimen name="colapsebar">160dp</dimen>
+    <dimen name="text">20dp</dimen>
+</resources>
